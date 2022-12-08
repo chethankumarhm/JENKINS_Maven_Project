@@ -3,11 +3,26 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScripts.Test_Script_1">
+      <class name="TestScripts.Test_Script_4_Test">
+        <methods>
+          <include name="bmw"/>
+        </methods>
+      </class> <!-- TestScripts.Test_Script_4_Test -->
+      <class name="TestScripts.Test_Script_3_Test">
+        <methods>
+          <include name="kawasaki"/>
+        </methods>
+      </class> <!-- TestScripts.Test_Script_3_Test -->
+      <class name="TestScripts.Test_Scripts_2_Test">
+        <methods>
+          <include name="honda"/>
+        </methods>
+      </class> <!-- TestScripts.Test_Scripts_2_Test -->
+      <class name="TestScripts.Test_Script_1_Test">
         <methods>
           <include name="royalenfield"/>
         </methods>
-      </class> <!-- TestScripts.Test_Script_1 -->
+      </class> <!-- TestScripts.Test_Script_1_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
